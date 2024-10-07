@@ -1,43 +1,26 @@
 # Test Case Samples
 
-## Introduction
-Briefly describe the purpose of the manual testing document and the application under test.
 
-## Prerequisites
-List any prerequisites needed to perform the tests, such as:
-- Required software (e.g., web browsers, operating systems)
-- Environment setup instructions (e.g., test server details)
-- User accounts or access permissions
-## Introduction
-Briefly describe the purpose of the manual testing document and the application under test.
+### :one: Test Cases for Login function on https://login.wordpress.org/ :arrow_down:
+![login-wp](https://user-images.githubusercontent.com/115346533/205150712-3dd8e65e-d957-4fc5-8e8f-57e4207e12aa.png)
 
-## Prerequisites
-List any prerequisites needed to perform the tests, such as:
-- Required software (e.g., web browsers, operating systems)
-- Environment setup instructions (e.g., test server details)
-- User accounts or access permissions
 
-## Test Cases
-Describe each test case clearly. Include the following details for each test case:
-- **Test Case ID**: A unique identifier for the test case.
-- **Description**: What the test case is intended to verify.
-- **Preconditions**: Any setup needed before executing the test.
-- **Steps**: A step-by-step guide to performing the test.
-- **Expected Results**: What you expect to happen after executing the test.
-- **Actual Results**: A space for testers to document what actually happened.
-- **Status**: Pass/Fail/Blocked.
 
-### Example Test Case
 
-| Test Case ID | Description        | Preconditions | Steps               | Expected Results | Actual Results | Status |
-|--------------|--------------------|----------------|---------------------|-------------------|----------------|--------|
-| TC-01        | Verify login       | None           | 1. Open the app<br>2. Enter credentials<br>3. Click login | User is redirected to the dashboard | User redirected to dashboard | Pass  |
 
-## Additional Notes
-Include any additional notes or information relevant to testing, such as:
-- Known issues or limitations.
-- Instructions for reporting bugs or feedback.
-- Contact information for the testing team or stakeholders.
+**Test ID:** 1
 
-## Conclusion
-Summarize the importance of manual testing for the project and encourage feedback on the testing process.
+**Test Title:** Test login with correct credentials
+
+**Description:** Test the login by using correct credentials.
+
+**Steps to reproduce:**
+1. Go to site https://login.wordpress.org/ 
+2. Add correct username and password
+3. Press the login button
+4. Observe if user can login
+
+**Expected result:** User should be able to login.
+
+**Test Data:** Username: test & Password: 1234
+
