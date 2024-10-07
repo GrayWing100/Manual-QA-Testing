@@ -2,10 +2,7 @@
 
 
 ### :one: Test Cases for Login function on https://login.wordpress.org/ :arrow_down:
-![login-wp](https://user-images.githubusercontent.com/115346533/205150712-3dd8e65e-d957-4fc5-8e8f-57e4207e12aa.png)
-
-
-
+![Alt text](.pictures/Facebook.png)
 
 
 **Test ID:** 1
