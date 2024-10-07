@@ -1,5 +1,13 @@
-# Manual Testing Documentation
+# Test Case Samples
 
+## Introduction
+Briefly describe the purpose of the manual testing document and the application under test.
+
+## Prerequisites
+List any prerequisites needed to perform the tests, such as:
+- Required software (e.g., web browsers, operating systems)
+- Environment setup instructions (e.g., test server details)
+- User accounts or access permissions
 ## Introduction
 Briefly describe the purpose of the manual testing document and the application under test.
 
