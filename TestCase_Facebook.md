@@ -1,4 +1,5 @@
 # Test Case Samples
+Testing the functionality on Facebook's homepage. https://www.facebook.com/
 ![Facebook Login Screenshot](https://github.com/GrayWing100/Manual-QA-Testing/blob/main/pictures/Facebook.png)
 
 ### :one: Test Cases: Verify successful login with valid credentials :arrow_down:
@@ -93,6 +94,69 @@
 - Ensure that the **Login** button becomes inactive or remains clickable but provides appropriate feedback (e.g., error highlight).
 - Check the form behavior across different browsers to ensure consistent validation.
 
+#
+
+
+### 4️⃣ : Test Cases: Verify "Forgot Password" functionality :arrow_down:
+
+### Test ID: FB-04
+
+**Test Title:** Verify "Forgot Password" functionality
+
+**Description:** Check the "Forgot Password" link functionality to ensure users can recover their account.
+
+**Prerequisites:** 
+- A web browser (Chrome, Firefox, Safari, etc.)
+- Access to the Facebook login page (https://www.facebook.com/)
+
+**Steps to reproduce:**
+1. Navigate to the Facebook login page.
+2. Click on the "Forgotten password?" 
+3. Enter email/phone and click "Search".
+4. Observe if the user is redirected to the password recovery page.
+5. Check if a recovery email or SMS is sent.
+   
+**Expected result:** 
+- User is redirected to the password recovery page.
+- Recovery email/SMS is sent with further instructions.
+
+**Actual result:** User is redirected to the password recovery page and receives a recovery email/SMS.
+
+**Test Data:** Username: `Valid username` & Phone number: `Valid phone number`
+
+#
+
+
+### 5️⃣  : Test Cases: Verify login using "Remember Me" option :arrow_down:
+
+### Test ID: FB-05
+
+**Test Title:** Verify login using "Remember Me" option
+
+**Description:** uccessful login with "Remember Me" checked and ensuring the session is preserved.
+
+**Prerequisites:** 
+- A web browser (Chrome, Firefox, Safari, etc.)
+- An active Facebook account for testing
+- Access to the Facebook login page (https://www.facebook.com/)
+- User must log out first
+- Ensure browser settings do not clear cookies automatically after closing.
+
+**Steps to reproduce:**
+1. Navigate to the Facebook login page.
+2. Enter valid email/phone and password.
+3. Check the "Keep me logged in"
+4. Click on the "Log In" button.
+5. Log out of Facebook.
+6. Navigate back to the Facebook login page.
+  
+**Expected result:** 
+- User's email/phone is pre-filled in the login field.
+- User is remembered for future logins.
+
+**Actual result:** User's email/phone is pre-filled in the login field and the "Remember Me" functionality works as expected.
+
+**Test Data:** Username: `Valid username` & Password: `Valid password`
 
 
 
